@@ -5,5 +5,4 @@ while(count<=5){
     let multiple=count*order; 
     console.log(multiple);
     count++;
-
 }
