@@ -1,7 +1,6 @@
 let nam="joshitha";
 function displaygreeting(){
-    ans=console.log("hello,"+ nam);
+    ans=console.log("hello,"+ nam+ "!");
 
 }
 let result= displaygreeting(nam);
-console.log(result);

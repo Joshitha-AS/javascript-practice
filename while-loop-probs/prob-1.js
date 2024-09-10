@@ -8,5 +8,5 @@ function calculateArea() {
 }
 function greetUser() {
     var userName = "John";
-    console.log(userName); //username should be declared before print statement
+    console.log(userName); //username should be declared before print
 }
