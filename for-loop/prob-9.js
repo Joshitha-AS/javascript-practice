@@ -1,8 +1,10 @@
 //reverse a string 
 
-let str="BADMINTON";
+let str="BAD";
 let reversestr="";
-for(let i= str.length-1; i>=0; i--){
-    reversestr += str[i]
-    console.log(reversestr)
+for(let i= str.length; i>=0; i--){
+    reversestr += str[i];
 }
+console.log(reversestr);
+
+
