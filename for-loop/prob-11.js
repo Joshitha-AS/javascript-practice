@@ -7,7 +7,7 @@ function sumof(n) {
     }
     return sum
 }
-let n = 3;
+let n = 5;
 let res= sumof(n);
 console.log(res);
 

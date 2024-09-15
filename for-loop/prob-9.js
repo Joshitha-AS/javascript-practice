@@ -1,10 +1,16 @@
-//reverse a string 
+//palindrome 
 
-let str="BAD";
+let str="brinda";
 let reversestr="";
-for(let i= str.length; i>=0; i--){
+for(let i= str.length-1 ; i>=0; i--){
     reversestr += str[i];
 }
-console.log(reversestr);
+if(reversestr===str){
+    console.log("palindrome");
+}
+else{
+    console.log("not a palindrome");
+}
+
 
 

@@ -1,10 +1,12 @@
-function nodigits(n){
-    let count=0;
-    for(let i=1;i<=n.length; i++){
+
+
+function nodigits(num){
+let count = 0;
+    while (num > 0) {
+        num = Math.floor(num / 10); // Remove the last digit
         count++;
-        console.log(count);
     }
-    return;
+    return count;
 }
-let n=1234567;
-let res= nodigits(n);
+let num=1909293;
+console.log(nodigits(num));

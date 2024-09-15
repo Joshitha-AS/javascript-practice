@@ -18,3 +18,5 @@ for(let j=2; j<=10; j++){
     n1=n2;
     n2=nextterm;
 }
+
+
