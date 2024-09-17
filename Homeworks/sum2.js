@@ -1,5 +1,5 @@
-let num=["one","two","three","four","five"];
-n=num.length;
-for(i=n-1; i>=0; i--){
-    console.log(num[i]); 
+let n = 13;
+for (let i = 2; i <= n; i += 2) {
+    console.log(i);
 }
+
