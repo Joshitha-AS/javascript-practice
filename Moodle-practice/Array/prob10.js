@@ -45,4 +45,34 @@ for(i=0;i<integers.length;i++){
 }
 console.log(count);
 
+//prob
+let colour=["red","black","blue"];
+colour.push("pink");
+console.log(colour);
+
+//prob
+let fruit=["apple","grape","guava","mango","fruit"];
+for(i=1;i<=2;i++){
+    fruit.shift();
+    console.log(fruit);
+}
+
+//prob
+let sport=["cricket","tennis"];
+sport.unshift("hockey","basketball","football");
+console.log(sport);
+
+//prob
+let gadets=["phone","earpods","laptop"];
+let n=gadets.indexOf("laptop");
+console.log(n);
+
+//prob
+let str= "HTML-CSS-JavaScript";
+let arr=str.split("-");
+console.log(arr);
+
+//prob
+
+
 
