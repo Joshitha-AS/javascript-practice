@@ -2,7 +2,7 @@
 //  returns the sum of all numbers from 1 to n using a while loop.
 function sumNumbers(n){
     let i=0;
-    let sum=1;
+    let sum=0;
     while(i<=n){
         sum=sum+i;
         i++;

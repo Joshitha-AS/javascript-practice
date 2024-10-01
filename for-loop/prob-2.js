@@ -1,8 +1,8 @@
 
-function countnumbers(){
-    for(let i=1; i<=10; i++){
+function countnumbers(n){
+    for(let i=1; i<=n; i++){
         console.log(i);
     }
-    return
+
 }
-let result= countnumbers();
+let result= countnumbers(10);

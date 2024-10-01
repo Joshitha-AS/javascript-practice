@@ -11,3 +11,10 @@ for(i=array.length;i>0;i--){
 }
 console.log(newarray);
 
+let arr=[1,2,3,4,5];
+let revarr=[];
+for(let i=0;i<arr.length;i++){
+       revarr.unshift(arr[i]);
+}
+console.log(revarr);
+

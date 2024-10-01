@@ -7,7 +7,7 @@ function calculatefactorial(n){
         factorial= factorial*i;
         i++
     }
-    return factorial
+    return factorial;
 }
 
 let n=5;

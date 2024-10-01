@@ -11,5 +11,6 @@ function evenodd(n){
     }
     return
 }
+let n=10;
 console.log(evencount);
 console.log(oddcount);

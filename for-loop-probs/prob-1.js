@@ -4,11 +4,10 @@ function exponent(b,e){
     while(i<=b){
         let ans= i**e;
         console.log(ans);
-        i++
+        i++;
     }
-    
     return;
 }
-let b=3;
+let b=10;
 let e=2;
 let res=exponent(b,e);
