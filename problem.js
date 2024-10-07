@@ -101,19 +101,18 @@
 // let array=[12,18,23,5,17,8,9,32,6];
 // oddeven(array);
 
-function isprimes(num){
-        if(i<=1) return false;
-        for(let i=2; i<=Math.sqrt(num); i++){
-            if(num%i===0) return false;
-        }
-        return true;
-}
-for(let i=0; i<=num; i++){
-   if(isprimes(i)){
-    console.log(i);
-   }
-}
-isprimes(20);
-
-
+// function isprimes(num){
+//         if(i<=1) return false;
+//         for(let i=2; i<=Math.sqrt(num); i++){
+//             if(num%i===0) return false;
+//         }
+//         return true;
+// }
+// for(let i=0; i<=num; i++){
+//    if(isprimes(i)){
+//     console.log(i);
+//    }
+// }
+// isprimes(20);
+//==========================================
 
