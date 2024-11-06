@@ -61,3 +61,67 @@ let num4=Array.from(number)
 // num3.push(number)
 console.log(num4);
 
+
+// function lcmof(a,b){
+//     let num= a*b;
+//     for(let i=1; i<=num; i++){
+//         if(i%a ===0 && i%b===0){
+//           return i;
+//         } 
+//     } 
+// }
+// let m= 12; 
+// let n=36;
+// console.log(lcmof(m,n));
+//========================================//
+
+// function fizzbuzz(n){
+//     for(let i=0; i<=n; i++){
+//         if(i%3===0 && i%5===0){
+//             console.log("fizzbuzz");
+//         }
+//         else if(i%3===0){
+//             console.log("fizz") ;
+//         }
+//         else if(i%5===0){
+//             console.log("buzz") ;
+//         }
+//         else{
+//             console.log(i) ;
+//         }
+//     }
+// }
+// let n=100;
+// fizzbuzz(n);
+//========================================//
+
+// function isprime(n){
+//     if(n<=1) return false;
+//     if(n==2) return true;
+//     for(let i=2; i<=Math.sqrt(n); i++){
+//         if(n%i===0){
+//             return false
+//         }
+//     }
+//     return true
+// }
+//console.log(isprime(n));
+
+// for(i=0; i<=20;i++){
+//     if(isprime(i)==true){
+//         console.log(i)
+//     }
+// }
+//========================================//
+
+// function hcfof(x,y){
+//     while(y!==0){
+//         let temp=y;
+//         y= x%y;
+//         x= temp;
+//     }   
+//     return x;
+// }
+// let x=48;
+// let y=18;
+// console.log(hcfof(x,y));
