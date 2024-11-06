@@ -46,4 +46,4 @@ function mostScores(names,scores){
     console.log(names[maxcount])
     
 }
- mostScores(["sanjay", "priya", "ramesh", "shalini"], [88, 45, 71, 91]);
+ mostScores(["sanjay", "priya", "ramesh", "sanjana"], [88, 45, 71, 91]);
