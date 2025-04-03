@@ -350,3 +350,61 @@
 // let pdate2= customDate(date2);
 // console.log(findEarlierDate(pdate1,pdate2));
  
+
+// let str1="";
+//     let str2=""
+//     for(let word in word1){
+//         for(let l in word){
+//             str1+=l
+//         }
+//     }
+//     for(let words of word2){
+//         for(let j of words){
+//             str2+=j
+//         }
+//     }
+//     str1===str2
+
+//Implement a method to perform basic string compression using the counts of repeated characters. 
+// //For example, the string aabcccccaaa would become a2b1c5a3. If the "compressed" string would not become smaller than the original string, your method should return the original string.
+//compressString("aabcccccaaa")
+//a2b1c5a3
+
+function compressString(str){
+    console.log(str.length)
+   let compressed="";
+   let count=1;
+   for(let i=1; i<str.length; i++){
+      if(str[i]===str[i-1]){
+        count++
+      }
+      else{
+        compressed += str[i-1]+count;
+        count=1; 
+      }
+   }
+   compressed+= str[str.length-1]+count
+   if(compressed.length< str.length){
+    console.log(compressed)
+   }
+   else{
+    console.log(str)
+   }
+}
+compressString("aabcccccaaa")
+
+function frequency(str){
+  let frequency={}
+  for(let char of str){
+    if(frequency[char]){
+      frequency[char]++
+    }
+    else{
+      frequency[char]=1
+    }
+  } 
+  return frequency;  
+}
+console.log(frequency("aabcccccaaa"));
+
+function freq

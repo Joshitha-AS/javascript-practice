@@ -112,24 +112,24 @@
 // }
 // console.log(ascBubbleSort([4,5,1,9,6,3,0]))
 
-function objectBubbleSort(people, key){
-    let n=people.length;
-    let isSwapped;
-    for(let i=0; i< n-1; i++){
-       isSwapped= false;
-        for(let j=0; j< n-i-1; j++){
-            if(people[j][key].toLowerCase()> people[j+1][key].toLowerCase()){
-                [people[j],people[j+1]]=[people[j+1],people[j]]
-                isSwapped=true;
-            }
-        }
-        if(!isSwapped){
-           break;
-        }
-    }
-    return people
+// function objectBubbleSort(people, key){
+//     let n=people.length;
+//     let isSwapped;
+//     for(let i=0; i< n-1; i++){
+//        isSwapped= false;
+//         for(let j=0; j< n-i-1; j++){
+//             if(people[j][key].toLowerCase()> people[j+1][key].toLowerCase()){
+//                 [people[j],people[j+1]]=[people[j+1],people[j]]
+//                 isSwapped=true;
+//             }
+//         }
+//         if(!isSwapped){
+//            break;
+//         }
+//     }
+//     return people
    
-}
+// }
 
 // for (let j = 0; j < n - i - 1; j++) {
 //     if (people[j][key].toLowerCase() > people[j + 1][key].toLowerCase()) {
@@ -141,11 +141,51 @@ function objectBubbleSort(people, key){
 
 
 
-let people = [
-    { name: "nlice", age: 25 },
-    { name: "Bob", age: 30 },
-    { name: "mharlie", age: 20 },
-    { name: "ciana", age: 35 }
-];
+// let people = [
+//     { name: "nlice", age: 25 },
+//     { name: "Bob", age: 30 },
+//     { name: "mharlie", age: 20 },
+//     { name: "ciana", age: 35 }
+// ];
 
-console.log(objectBubbleSort(people, "name"));
+// console.log(objectBubbleSort(people, "name"));
+
+
+
+
+// function bs(arr){
+//     let n= arr.length;
+//     for(let i=0; i<n-1; i++){
+//         let isSwapped=false;
+//         for(let j=0; j<n-i-1; j++){
+//             if(arr[j]> arr[j+1]){
+//                 [arr[j],arr[j+1]]=[arr[j+1],arr[j]];
+//                 isSwapped=true;
+//             }
+//         }
+//         if(!isSwapped){
+//             break;
+//         }
+//     }
+//     return arr;
+// }
+// console.log(bs([8,1,9,7,6,2]))
+
+function bubble(arr){
+    let isSwapped;
+    let n= arr.length;
+    for(let i=0; i<n; i++){
+        isSwapped=false;
+        for(let j=0; j< n-i-1; j++){
+            if(arr[j]>arr[j+1]){
+                [arr[j],arr[j+1]]=[arr[j+1],arr[j]]
+                isSwapped=true
+            }
+        }
+        if(!isSwapped){
+            break;
+        }
+    }
+    return arr
+}
+console.log(bubble([8,1,9,7,6,2]))

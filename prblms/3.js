@@ -57,10 +57,10 @@ function rotate(arr) {
     return arr;
    
 }
-// [arr[i][j],arr[j][i]]=[arr[j][i],arr[i][j]]   
+   
 let arr=[ [1,2,3], [4,5,6], [7,8,9] ];
 console.log(rotate(arr)); 
-//[ [ 7, 4, 1 ], [ 8, 5, 2 ], [ 9, 6, 3 ] ]
+
 let array=[ [1,2,3], [4,5,6], [7,8,9] ];
 console.log(array.map((x,i,a)=>x.map((y,j)=>y[j]=a[array.length-1-j][i])));
 
